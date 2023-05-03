@@ -1,0 +1,23 @@
+.style-location {
+  width: 426px;
+  height: 55px;
+  border-radius: 16px;
+}
+.style-location2 {
+  width: 426px;
+  height: 55px;
+  border: 1px solid #333333;
+  border-radius: 16px;
+  filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.1));
+}
+.style-location3 {
+  background-color: #ffff;
+}
+
+.dropdown-menu {
+  text-align: start;
+  margin: 1em;
+  margin-top: 42px;
+  font-size: 1em;
+  cursor: pointer;
+}

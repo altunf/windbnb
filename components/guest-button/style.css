@@ -1,0 +1,22 @@
+.style-guest {
+  width: 426px;
+  height: 55px;
+  border-radius: 16px;
+}
+.style-guest2 {
+  width: 426px;
+  height: 55px;
+  border-radius: 16px;
+  border: 1px solid #333333;
+  filter: drop-shadow(0px 1px 6px rgba(0, 0, 0, 0.1));
+}
+.style-guest3 {
+  background-color: #ffffff;
+}
+
+.dropdown-menu2 {
+  text-align: start;
+  margin: 1em;
+  margin-top: 42px;
+  font-size: 1em;
+}
