@@ -1,0 +1,22 @@
+.search-closed {
+  color: #ef0808;
+  right: 7.84%;
+  top: 4.68%;
+  bottom: 93.76%;
+  cursor: pointer;
+}
+
+.search-open {
+  display: flex;
+  width: 127px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: rgba(235, 87, 87, 0.9);
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 14px;
+}

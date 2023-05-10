@@ -1,9 +1,10 @@
 "use client";
 import "./style.css";
 import React, { useState } from "react";
-import { useFilterContext } from "@/Context";
+import { useFilterContext } from "@/context";
 import { Typography } from "@mui/material";
 import PlaceIcon from "@mui/icons-material/Place";
+import { muli800, muli400, muli } from "@/styles/fonts";
 
 const Location = () => {
   const {
@@ -33,13 +34,18 @@ const Location = () => {
           variant="body1"
           sx={{ marginLeft: "2em", marginTop: "1em", fontSize: "9px" }}
         >
-          {open && "LOCATION"}
+          {open && <span className={muli800.className}>LOCATION</span>}
         </Typography>
         <Typography sx={{ fontSize: "14px", marginLeft: "18px" }}>
           {selectedItem ? (
-            <span style={{ fontSize: "14px" }}>{findCity.label}, Finland</span>
+            <span className={muli.className} style={{ fontSize: "14px" }}>
+              {findCity.label}, Finland
+            </span>
           ) : (
-            <span style={{ color: "#BDBDBD", fontSize: "14px" }}>
+            <span
+              className={muli400.className}
+              style={{ color: "#BDBDBD", fontSize: "14px" }}
+            >
               Add location
             </span>
           )}
@@ -67,7 +73,10 @@ const Location = () => {
                   className="dropdown-menu"
                 >
                   <PlaceIcon sx={{ fontSize: "16px", marginRight: "10px" }} />
-                  {item.label + ", Finland"}
+                  <span className={muli400.className}>
+                    {" "}
+                    {item.label + ", Finland"}
+                  </span>
                 </div>
               </div>
             );

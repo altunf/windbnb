@@ -1,4 +1,4 @@
-import { FilterContextProvider } from "@/Context";
+import { FilterContextProvider } from "@/context";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 

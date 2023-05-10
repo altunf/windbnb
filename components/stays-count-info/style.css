@@ -1,0 +1,8 @@
+.stays-count-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5em;
+  margin-right: 5em;
+}

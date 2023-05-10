@@ -1,21 +1,14 @@
 "use client";
-import { useFilterContext } from "@/Context";
+import { useFilterContext } from "@/context";
 import MediaCard from "../card";
+import "./style.css";
 
 const CardList = () => {
   const { lastFilter }: any = useFilterContext();
 
   return (
     <>
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: "0.1%",
-        }}
-      >
+      <div className="card-list">
         {lastFilter.map((stay: any, index: any) => (
           <div key={index}>
             <MediaCard stay={stay} />

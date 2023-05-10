@@ -1,4 +1,5 @@
 import Button from "@mui/material/Button";
+import { montserrat700 } from "@/styles/fonts";
 
 export default function SuperHost() {
   return (
@@ -12,6 +13,7 @@ export default function SuperHost() {
         }}
         variant="outlined"
         size="small"
+        className={montserrat700.className}
       >
         Super Host
       </Button>

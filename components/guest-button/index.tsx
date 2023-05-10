@@ -1,8 +1,9 @@
 "use client";
 import "./style.css";
-import { useFilterContext } from "@/Context";
+import { useFilterContext } from "@/context";
 import { Typography } from "@mui/material";
 import { useState } from "react";
+import { muli800, muli400, muli700 } from "@/styles/fonts";
 
 const Guests = () => {
   const { open, adult, setAdult, child, setChild, total }: any =
@@ -26,7 +27,7 @@ const Guests = () => {
           variant="body1"
           sx={{ marginLeft: "2em", marginTop: "1em", fontSize: "9px" }}
         >
-          {open && "GUESTS"}
+          {open && <span className={muli800.className}>GUESTS</span>}
         </Typography>
         {total > 0 ? (
           <span style={{ fontSize: "14px", marginLeft: "18px" }}>
@@ -34,6 +35,7 @@ const Guests = () => {
           </span>
         ) : (
           <span
+            className={muli400.className}
             style={{ color: "#BDBDBD", fontSize: "14px", marginLeft: "18px" }}
           >
             Add guests
@@ -42,7 +44,7 @@ const Guests = () => {
       </div>
       <div>
         {openGuests && (
-          <div className="dropdown-menu2">
+          <div className={`${muli700.className} dropdown-menu2`}>
             <div>
               <div>Adults</div>
               <div style={{ color: "#BDBDBD", marginBottom: "1.5em" }}>

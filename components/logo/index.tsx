@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { stays } from "@/services";
-import { useFilterContext } from "@/Context";
+import { useFilterContext } from "@/context";
 
 const Logo = () => {
   const { setLastFilter }: any = useFilterContext();
