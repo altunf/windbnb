@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Typography } from "@mui/material";
-import { useFilterContext } from "@/context";
+import { useFilterContext } from "@/Context";
 import "./style.css";
 import { montserrat500, montserrat700 } from "@/styles/fonts";
 

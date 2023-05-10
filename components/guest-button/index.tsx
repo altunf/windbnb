@@ -1,6 +1,6 @@
 "use client";
 import "./style.css";
-import { useFilterContext } from "@/context";
+import { useFilterContext } from "@/Context";
 import { Typography } from "@mui/material";
 import { useState } from "react";
 import { muli800, muli400, muli700 } from "@/styles/fonts";

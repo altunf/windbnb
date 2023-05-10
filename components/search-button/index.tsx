@@ -1,5 +1,5 @@
 "use client";
-import { useFilterContext } from "@/context";
+import { useFilterContext } from "@/Context";
 import SearchIcon from "@mui/icons-material/Search";
 
 import { muli700 } from "@/styles/fonts";

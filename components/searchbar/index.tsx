@@ -3,7 +3,7 @@
 import Location from "../location";
 import Guests from "../guest-button";
 import Searching from "../search-button";
-import { useFilterContext } from "@/context";
+import { useFilterContext } from "@/Context";
 import { Drawer, Box } from "@mui/material";
 
 import "./style.css";

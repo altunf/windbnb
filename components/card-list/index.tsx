@@ -1,5 +1,5 @@
 "use client";
-import { useFilterContext } from "@/context";
+import { useFilterContext } from "@/Context";
 import MediaCard from "../card";
 import "./style.css";
 
