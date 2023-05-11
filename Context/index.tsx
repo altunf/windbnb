@@ -20,6 +20,7 @@ export const FilterContextProvider = ({ children }: any) => {
   ];
 
   const findCity: any = cityList.find((item) => item.id == selectedItem);
+  7;
 
   const total = adult + child;
 
