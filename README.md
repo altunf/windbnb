@@ -30,6 +30,7 @@ I have completed this <a href="https://devchallenges.io/challenges/3JFYedSOZqAxY
 
 - Next JS
 - React JS
+- Material UI
 - TypeScript
 
 ## Features
